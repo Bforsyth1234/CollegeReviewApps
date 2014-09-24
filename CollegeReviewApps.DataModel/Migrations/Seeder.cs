@@ -11,7 +11,7 @@ namespace CollegeReviewApps.DataModel.Migrations
 {
     public class Seeder
     {
-        public static void Seed(ApplicationDbContext context, bool createCollege = true)
+        public static void Seed(ApplicationDbContext context, bool createCollege = false)
         {
             if (createCollege) CreateCollege(context);
         }
