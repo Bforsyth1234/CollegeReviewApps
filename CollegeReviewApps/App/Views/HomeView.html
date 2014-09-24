@@ -1,0 +1,13 @@
+﻿<button class="btn-lg btn-danger">Hello World</button>
+<input ng-model="name" />
+{{name}}
+<h4>Enter Name</h4>
+<input type="text" ng-model="college" />
+<button ng-click="AddCollege(college)">Add College</button>
+<div>
+    <table class="table table-bordered">
+        <tr ng-repeat="college in colleges">
+            <td>{{college.Name}}</td>
+        </tr>
+    </table>
+</div>

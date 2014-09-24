@@ -1,0 +1,13 @@
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\CollegeReviewApps.Data.dll.config
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\CollegeReviewApps.Data.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\CollegeReviewApps.Data.pdb
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\EntityFramework.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\EntityFramework.xml
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\obj\Debug\CollegeReviewApps.Data.dll
+c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\obj\Debug\CollegeReviewApps.Data.pdb

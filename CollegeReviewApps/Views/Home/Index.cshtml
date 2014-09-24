@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html ng-app="_MyScripts">
+<head>
+    <title></title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div ng-view=""></div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/App/Scripts/_MyScripts.js"></script>
+    <script src="~/App/Scripts/Controllers/HomeCtrl.js"></script>
+</body>
+</html>
