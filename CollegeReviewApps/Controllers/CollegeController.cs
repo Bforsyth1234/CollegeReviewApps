@@ -28,35 +28,35 @@ namespace CollegeReviewApps.Controllers
             }
             return Ok(college);
         }
-        public IHttpActionResult Post(string name)
+        public IHttpActionResult Post([FromBody] CollegeVM name)
         {
 
             using (ApplicationDbContext db = new ApplicationDbContext())
             {
                 var model = new College();
-                model.Name = name;
+                model.Name = name.name;
                 db.Colleges.Add(model);
                 db.SaveChanges();
             }
             return Ok();
         }
-        public IHttpActionResult PUT(CollegeReviewApps.DataModel.College college)
+        public IHttpActionResult PUT([FromBody] CollegeVM college)
         {
             using (ApplicationDbContext db = new ApplicationDbContext())
             {
-                var currentCollege = db.College.Find(college.id);
-                currentCollege = college.Name;
+                var model = db.Colleges.Find(college.id);
+                model.Name = college.name;
                 db.SaveChanges();
             }
             return Ok();
         }
-        public IHttpActionResult Delete(int id)
+        public IHttpActionResult Delete([FromBody] CollegeVM collegeDelete)
         {
 
             using(ApplicationDbContext db = new ApplicationDbContext())
             {
-                var currentCollege = db.Colleges.Find(id);
-                db.Colleges.Remove(currentCollege);
+                var model = db.Colleges.Find(collegeDelete.id);
+                db.Colleges.Remove(model);
                 db.SaveChanges();
             }
             return Ok();

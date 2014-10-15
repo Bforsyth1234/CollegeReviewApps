@@ -14,5 +14,5 @@ c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeR
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.csprojResolveAssemblyReference.cache
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.dll
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.pdb
-C:\Users\Brooks\Documents\Visual Studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.Migrations.first.resources
+C:\Users\Brooks\Documents\Visual Studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.Migrations.First.resources
 C:\Users\Brooks\Documents\Visual Studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.DataModel\obj\Debug\CollegeReviewApps.DataModel.csproj.GenerateResource.Cache

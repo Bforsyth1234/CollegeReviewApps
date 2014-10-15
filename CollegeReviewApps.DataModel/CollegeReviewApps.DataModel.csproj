@@ -55,9 +55,9 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="College.cs" />
-    <Compile Include="Migrations\201409241358574_first.cs" />
-    <Compile Include="Migrations\201409241358574_first.Designer.cs">
-      <DependentUpon>201409241358574_first.cs</DependentUpon>
+    <Compile Include="Migrations\201409241447295_First.cs" />
+    <Compile Include="Migrations\201409241447295_First.Designer.cs">
+      <DependentUpon>201409241447295_First.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seeder.cs" />
@@ -74,8 +74,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201409241358574_first.resx">
-      <DependentUpon>201409241358574_first.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201409241447295_First.resx">
+      <DependentUpon>201409241447295_First.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,13 +1,45 @@
-﻿<button class="btn-lg btn-danger">Hello World</button>
-<input ng-model="name" />
-{{name}}
-<h4>Enter Name</h4>
+﻿
 <input type="text" ng-model="college" />
 <button ng-click="AddCollege(college)">Add College</button>
 <div>
-    <table class="table table-bordered">
+    <Table class="table table-bordered">
         <tr ng-repeat="college in colleges">
-            <td>{{college.Name}}</td>
+            <td>
+                <span ng-hide="editing">
+                {{college.Name}}
+                </span>
+                <input type="text" ng-model="college.Name" ng-hide="!editing" />
+
+
+
+            </td>
+            <td>
+                <button ng-click="editing = true" ng-hide="editing">Edit</button>
+                <button ng-click="editing = false; PutCollege(college);" ng-hide="!editing">Save</button>
+                <button ng-click="editing = false; DeleteCollege(college);" ng-hide="!editing">Delete</button>
+                <button ng-click="editing = false; GetColleges();" ng-hide="!editing">Cancel</button>
+
+            </td>
+            <td>
+                <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            {{college.Name}}
+                        </div>
+                    </div>
+                </div>
+
+            </td>
         </tr>
-    </table>
+
+    </Table>
+    <ul ng-repeat="college in colleges">
+        <li><a href="ReviewView.html">Reviews For {{college.Name}}</a></li>
+    </ul>
+ 
+
+
+
+
 </div>

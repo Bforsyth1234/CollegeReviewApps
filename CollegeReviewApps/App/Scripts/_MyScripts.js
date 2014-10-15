@@ -15,3 +15,18 @@ app.config(function ($routeProvider) {
             '/'
     })
 })
+
+app.config(function ($routeProvider) {
+    $routeProvider.when('/', {
+        templateUrl: 'App/Views/ReviewView.Html',
+        controller: 'HomeCtrl',
+        title: 'Home'
+
+    })
+    .otherwise({
+        redirectTo:
+            '/'
+    })
+})
+
+// ['ui.bootstrap']

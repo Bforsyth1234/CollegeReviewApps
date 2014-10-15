@@ -7,7 +7,10 @@ namespace CollegeReviewApps
 {
     public class CollegeVM
     {
-        public string College { get; set; }
+        public string name { get; set; }
+        public string Year { get; set; }
+        public int id { get; set; }
+
 
     }
 }

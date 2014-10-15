@@ -11,3 +11,4 @@ c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeR
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\obj\Debug\CollegeReviewApps.Data.dll
 c:\users\brooks\documents\visual studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\obj\Debug\CollegeReviewApps.Data.pdb
+C:\Users\Brooks\Documents\Visual Studio 2013\Projects\CollegeReviewApps\CollegeReviewApps.Data\obj\Debug\CollegeReviewApps.Model.csprojResolveAssemblyReference.cache

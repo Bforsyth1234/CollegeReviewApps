@@ -13,7 +13,7 @@ namespace CollegeReviewApps.DataModel
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<College> Colleges { get; set; }
-        public DbSet College { get; set; }
+        
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
